@@ -9,5 +9,35 @@ ar_internal_metadata:
   records: 
   - - environment
     - development
-    - 2023-09-01 15:01:18.685806000 Z
-    - 2023-09-01 15:01:18.685806000 Z
+    - 2023-09-04 17:27:01.648598000 Z
+    - 2023-09-04 17:27:01.648598000 Z
+  - - schema_sha1
+    - 45d0c748b7161261be2c97dddba1b994129a4f4b
+    - 2023-09-04 17:27:01.668050000 Z
+    - 2023-09-04 17:27:01.668050000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  - author
+  - price
+  - published_date
+  records: 
+  - - 3
+    - Harry Potter
+    - 2023-09-05 01:59:23.090687000 Z
+    - 2023-09-05 01:59:23.090687000 Z
+    - J. K. Rowling
+    - !ruby/object:BigDecimal 18:0.698e1
+    - '1996-06-26'
+  - - 4
+    - Dune
+    - 2023-09-05 01:59:37.782880000 Z
+    - 2023-09-05 01:59:37.782880000 Z
+    - Frank Herbert
+    - !ruby/object:BigDecimal 18:0.1e2
+    - '1965-08-01'
