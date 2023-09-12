@@ -61,6 +61,7 @@ development:
 test:
   <<: *default
   database: CSCE431_book_collection_test
+  url: <%= ENV["DATABASE_URL"] %>
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -87,3 +88,4 @@ production:
   database: CSCE431_book_collection_production
   username: CSCE431_book_collection
   password: <%= ENV["CSCE431_BOOK_COLLECTION_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
