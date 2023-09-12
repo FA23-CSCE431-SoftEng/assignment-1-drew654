@@ -1,9 +1,3 @@
 {
-  "stack": "heroku-20",
-  "addons": ["heroku-postgresql:standard-0"],
-  "environments": {
-    "review": {
-      "addons": ["heroku-postgresql:mini"]
-      }
-  }
+  "stack": "heroku-20"
 }

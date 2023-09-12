@@ -87,4 +87,3 @@ production:
   database: CSCE431_book_collection_production
   username: CSCE431_book_collection
   password: <%= ENV["CSCE431_BOOK_COLLECTION_DATABASE_PASSWORD"] %>
-  url: <%= ENV["DATABASE_URL"] %>
